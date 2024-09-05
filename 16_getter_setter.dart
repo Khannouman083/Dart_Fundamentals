@@ -9,8 +9,7 @@ class Mathematics {
 
   // Setter method for the denominator
   void set setDenominator(int val) {
-    _denum =
-        val * 6; // Sets the denominator to the value provided multiplied by 6
+    _denum = val * 6; // Sets the denominator to the value provided multiplied by 6
   }
 
   // int get getNumerator {

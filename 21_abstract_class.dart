@@ -1,3 +1,5 @@
+// abstraction is to hide the implementation details from the end programmer
+
 // Defining an abstract class 'Animal'
 abstract class Animal {
   int legs = 4;
@@ -6,6 +8,7 @@ abstract class Animal {
 
   // Abstract method 'voice' that must be implemented by subclasses
   void voice();
+  void eat(){}
 }
 
 // 'Cow' class inherits from 'Animal' class

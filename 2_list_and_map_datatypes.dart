@@ -14,6 +14,7 @@ void main() {
   // Add a new hobby to the list
   hobbies.add("Music");
 
+
   // Add multiple new hobbies to the list
   hobbies.addAll(["Painting", "Singing"]);
 

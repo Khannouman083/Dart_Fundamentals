@@ -5,6 +5,7 @@ void main() {
   print('Enter your name:');
   // Read the user input
   String? name = stdin.readLineSync() ?? '';
+
   // Prompt the user for their age
   print('Enter your age:');
 
@@ -28,12 +29,6 @@ String voteFunction(int age, String? name) {
   // Use the ternary operator to determine the result
   // The ternary operator has the form: condition ? expression1 : expression2
   // It evaluates the condition, and if it is true, it returns expression1; otherwise, it returns expression2
-  String result = (age >= 18 && age <= 100)
-      ? "You can vote $name"
-      : (age > 100)
-          ? "Are you sure you are living? $name"
-          : (age < 0)
-              ? "You are not born $name"
-              : "You can't vote $name";
+  String result = (age >= 18 && age <= 100) ? "You can vote $name" : (age > 100) ? "Are you sure you are living? $name" : (age < 0) ? "You are not born $name": "You can't vote $name";
   return result;
 }
